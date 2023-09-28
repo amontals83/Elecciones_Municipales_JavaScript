@@ -1,0 +1,145 @@
+/*----------CUERPO----------*/
+/*--------POSICIONES--------*/
+/*---------PARTIDOS---------*/
+
+
+/*----------CUERPO----------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f3f5f7;
+}
+
+h1 {
+	width: 100vw;
+	text-align: center;
+	margin-top: 20px;
+	font-family: Courier ;
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: 4px;
+	color: #fff;
+	background-color: #222;
+}
+
+.container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form {
+	width: 500px;
+	margin-top: 10px;
+}
+
+.form input {
+	width: 100%;
+	padding: 10px 5px;
+	border: 1px solid #bbb;
+}
+
+.filas{
+	display: flex;
+	justify-content: center;
+}
+
+/*--------POSICIONES--------*/
+
+.listPosicion {
+	max-width: 80px;
+	width: 100%;
+	list-style: none;
+	margin: 0 10px;
+}
+
+.elemPosicion {
+	width: 80px;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #000;
+	background-color: #fff;
+	margin: 25px 0;
+	padding: 0 25px;
+	border: 1.7px solid #E5E5E5;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px -10px #AAA;
+}
+
+.elemPosicion p {
+	text-align: right;
+	font-family: Courier ;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+/*--------PARTIDOS--------*/
+
+.tareas {
+	max-width: 600px;
+	width: 100%;
+	list-style: none;
+	margin: 0 10px;
+}
+
+.tareas .tarea {
+	width: 600px;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #000;
+	background-color: #fff;
+	margin: 25px 0;
+	padding: 0 25px;
+	border: 1.7px solid #E5E5E5;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px -10px #AAA;
+}
+
+.tareas .tarea:hover {
+	cursor: grab;
+}
+
+.bloqueIzq {
+	display: flex;
+	align-items: center;
+}
+
+.imgPartido {
+	width: 55px;
+	border-radius: 50%;
+}
+
+.bloqueIzq > p {
+	width: 350px;
+	margin-left: 25px;
+	font-family: Courier ;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 28px;
+}
+
+.bloqueDch {
+	display: flex;
+	align-items: center;
+}
+
+.escano {
+	margin-right: 20px;
+	font-family: Courier ;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.bloqueDch > img {
+	width: 14px;
+}
